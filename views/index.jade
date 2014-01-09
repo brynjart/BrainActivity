@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+
+  #thoughts
+        each thought in thoughts
+          if(thought.timeObject)
+              div.thought
+                  div.created_at
+                      div.title
+                        a(href="/thought/"+thought._id.toHexString())!= thought.timeObject.title
+                          div.body= thought.body
+          else
+            | not uppsett

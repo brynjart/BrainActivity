@@ -1,0 +1,20 @@
+extend layout
+block content
+    h1= title
+    div.article
+        div.created_at= thought.created_at
+        title = thought.title
+        div.title= title
+        div.body= thought.body
+
+        div
+            //form( method="post", action="/thought/addComment")
+                input( type="hidden", name="_id", value=thought._id)
+                div
+                    span Titill :
+                    input( type="text", name="person", id="addCommentPerson")
+                div
+                    span Hvað ertu að hugsa? :
+                    textarea( name="comment", rows=5, id="addCommentComment")
+                div#editThoughtSubmit
+                    input(type="submit", value="Send")
