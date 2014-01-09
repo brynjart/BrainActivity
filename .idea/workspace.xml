@@ -26,7 +26,7 @@
       <file leaf-file-name="thoughtprovider.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/thoughtprovider.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="115" column="10" selection-start="3837" selection-end="3837" vertical-scroll-proportion="0.8883375" vertical-offset="1009" max-vertical-offset="1845">
+            <state line="116" column="2" selection-start="3888" selection-end="3888" vertical-scroll-proportion="0.9069479" vertical-offset="1009" max-vertical-offset="1860">
               <folding />
             </state>
           </provider>
@@ -36,7 +36,9 @@
         <entry file="file://$PROJECT_DIR$/routes/thoughts.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="66" column="7" selection-start="2041" selection-end="2041" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1095">
-              <folding />
+              <folding>
+                <marker date="1389224181000" expanded="true" signature="1699:2043" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -511,13 +513,15 @@
     <entry file="file://$PROJECT_DIR$/routes/thoughts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="66" column="7" selection-start="2041" selection-end="2041" vertical-scroll-proportion="0.0" vertical-offset="253" max-vertical-offset="1095">
-          <folding />
+          <folding>
+            <marker date="1389224181000" expanded="true" signature="1699:2043" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/thoughtprovider.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="115" column="10" selection-start="3837" selection-end="3837" vertical-scroll-proportion="0.8883375" vertical-offset="1009" max-vertical-offset="1845">
+        <state line="116" column="2" selection-start="3888" selection-end="3888" vertical-scroll-proportion="0.9069479" vertical-offset="1009" max-vertical-offset="1860">
           <folding />
         </state>
       </provider>

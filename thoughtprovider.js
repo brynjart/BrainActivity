@@ -87,6 +87,7 @@ ThoughtProvider.prototype.save = function(thoughts, callback) {
     });
 };
 
+
 ThoughtProvider.prototype.addThought = function(thought, callback) {
     this.getCollection(function(err, collection) {
         collection.insert(thought, {safe:true}, function(err, result) {
@@ -111,9 +112,8 @@ ThoughtProvider.prototype.deleteThought = function(id, callback) {
     });
 }
 
-//prófa að senda hluta af þessu
-//á github
 //prófa að senda hluta af þessu hérna
+//á github .  Stoppar þetta fyrst í local repository
 //
 
 exports.ThoughtProvider = ThoughtProvider;
