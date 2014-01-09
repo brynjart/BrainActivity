@@ -114,5 +114,6 @@ ThoughtProvider.prototype.deleteThought = function(id, callback) {
 //prófa að senda hluta af þessu
 //á github
 //prófa að senda hluta af þessu hérna
+//
 
 exports.ThoughtProvider = ThoughtProvider;
