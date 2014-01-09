@@ -42,81 +42,9 @@ app.configure(function () {
 app.get('/thoughts', thoughts.findAll);
 app.get('/thoughts/:id', thoughts.findById);
 app.post('/thoughts', thoughts.addThought);
-//app.post('/thoughts/:id', thoughts.updateThought);  //todo update as pos with update parameter
 app.put('/thoughts/:id', thoughts.updateThought);
 app.delete('/thoughts/:id', thoughts.deleteThought);
 
-/*
-app.get('/thoughts', function(req, res){
-    thoughtProvider.findAll( function(error,docs){
-        if(error){
-
-        }
-        else{
-            res.send(docs);
-
-        }
-
-    })
-});
-
-app.get('/thoughts/:id', function(req, res){
-    thoughtProvider.findById( function(error,docs){
-        if(error){
-
-        }
-        else{
-            res.send(docs);
-        }
-
-    })
-});
-
-app.post('/thoughts', function(req, res){
-    thoughtProvider.addThought( function(error,docs){
-        if(error){
-
-        }
-        else{
-            res.render('index', {
-                title: 'Dagbókin',
-                thoughts:docs
-            });
-        }
-
-    })
-});
-
-app.put('/thoughts/:id', function(req, res){
-    thoughtProvider.updateThought( function(error,docs){
-        if(error){
-
-        }
-        else{
-            res.render('index', {
-                title: 'Dagbókin',
-                thoughts:docs
-            });
-        }
-
-    })
-});
-
-app.delete('/thougts/:id', function(req, res){
-    thoughtProvider.delteThought( function(error,docs){
-        if(error){
-
-        }
-        else{
-            res.render('index', {
-                title: 'Dagbókin',
-                thoughts:docs
-            });
-        }
-
-    })
-});
-*/
 //html views
 app.get('/', function(req, res){
     thoughtProvider.findAll( function(error,docs){
